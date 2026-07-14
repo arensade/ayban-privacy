@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-14",
+  "serviceStartDate": "2026-07-17",
+  "line": {
+    "name": "AYBAN İncirliova-Aydın Gar-Köşk Tren Hattı",
+    "length_km": 23.5
+  },
+  "stations": [
+    { "id": 0, "name": "İncirliova Gar", "lat": 37.853851, "lng": 27.725004 },
+    { "id": 1, "name": "Şehir Hastanesi", "lat": 37.848730, "lng": 27.791249 },
+    { "id": 2, "name": "Aydın Merkez Gar", "lat": 37.848236, "lng": 27.843716 },
+    { "id": 3, "name": "Tekstil Park", "lat": 37.848872, "lng": 27.861485 },
+    { "id": 4, "name": "Astim OSB", "lat": 37.847808, "lng": 27.869767 },
+    { "id": 5, "name": "Umurlu Gar", "lat": 37.850913, "lng": 27.948417 },
+    { "id": 6, "name": "Aydın OSB", "lat": 37.854200, "lng": 27.974000 },
+    { "id": 7, "name": "Köşk Gar", "lat": 37.852139, "lng": 28.047487 }
+  ],
+  "toKosk": {
+    "trips": [
+      { "departure": "06:00", "stationMinutes": [0, 5, 13, 16, 19, 32, 35, 38] },
+      { "departure": "08:00", "stationMinutes": [0, 5, 12, 15, 18, 34, 37, 40] },
+      { "departure": "09:46", "stationMinutes": [0, 5, 12, 15, 18, 28, 31, 34] },
+      { "departure": "11:30", "stationMinutes": [0, 5, 12, 15, 18, 28, 31, 34] },
+      { "departure": "13:16", "stationMinutes": [0, 5, 12, 15, 18, 28, 31, 34] },
+      { "departure": "15:31", "stationMinutes": [0, 5, 12, 15, 18, 28, 31, 34] },
+      { "departure": "17:22", "stationMinutes": [0, 5, 12, 15, 18, 28, 31, 34] },
+      { "departure": "18:59", "stationMinutes": [0, 5, 11, 14, 17, 30, 33, 36] }
+    ]
+  },
+  "toIncirliova": {
+    "trips": [
+      { "departure": "07:15", "stationMinutes": [0, 5, 10, 22, 25, 29, 35, 40] },
+      { "departure": "08:49", "stationMinutes": [0, 5, 9, 19, 22, 26, 32, 37] },
+      { "departure": "10:40", "stationMinutes": [0, 5, 9, 19, 22, 28, 34, 39] },
+      { "departure": "12:20", "stationMinutes": [0, 5, 9, 20, 23, 27, 33, 38] },
+      { "departure": "14:24", "stationMinutes": [0, 5, 9, 19, 22, 25, 31, 36] },
+      { "departure": "16:34", "stationMinutes": [0, 5, 9, 21, 24, 27, 33, 38] },
+      { "departure": "18:19", "stationMinutes": [0, 5, 9, 19, 22, 26, 32, 37] },
+      { "departure": "20:06", "stationMinutes": [0, 5, 9, 19, 22, 28, 34, 39] }
+    ]
+  }
+}
